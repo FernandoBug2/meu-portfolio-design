@@ -1,0 +1,158 @@
+/* Estilo para tablets */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+    .introducao {
+        background-image: url('/img/banner-code-tablet.png');
+    }
+
+    /* HISTORIA */
+
+    .historia_objetivo img {
+        height: 226px;
+        width: 245px;
+        margin-top: 110px;
+    }
+
+    
+    .historia {
+        margin-left: 50px;
+    }
+
+
+    /* CURSOS */
+
+    .icones img {
+        padding: 0px;
+        border: 5px solid #202020;
+        padding-bottom: 20px;
+    }
+
+    .icones a {
+        margin-left: 9px;
+    }
+
+    /* PROJETOS */
+
+    article {
+        width: 230px;
+        height: 330px;
+    }
+
+    article img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .projetos p {
+        padding: 10px;
+    }
+}
+
+
+
+
+/* Estilo para smartphone */
+@media only screen and (max-width: 787px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* HEADER */
+
+    .header {
+        height: 200px;
+    }
+
+    .header img {
+        padding-left: 115px;
+        padding-bottom: 10px;
+    }
+
+    .header_menu {
+        text-align: center;
+    }
+
+    .header_menu ul li {
+        margin: 5px;
+    }
+
+    .header_menu ul li a {
+        border: 2px solid white;
+        width: 136px;
+        display: block;
+        float: left;
+    }
+    
+
+
+    .header_menu ul li a:hover {
+        color: #d4be16;
+        border-color: #d4be16;
+    }
+
+    .header_menu ul li a:hover::after {
+        content: "";
+        display: block;
+        width: 0px;
+        height: 0px;
+        background: none;
+        margin: 0px auto 0px auto;
+    }
+ 
+    /* INTRODUCAO */
+
+    .introducao div {
+        padding-top: 110px;
+    }
+
+    .introducao {
+        margin-top: 200px;
+        background-image: url('/img/banner-code-celular.png');
+    }
+
+    .introducao h1{
+        font-size: 26px;
+    }
+
+    .introducao h2 {
+        font-size: 18px;
+    }
+
+    /* HISTORIA */
+
+    .conteudo-historia img {
+        position: relative;
+        right: 80px;
+    }
+
+    .historia p {
+        position: relative;
+        right: 20px;
+    }
+
+    .objetivo_preto {
+        position: relative;
+        right: 80px;
+    }
+
+    /* CURSOS */
+
+    .cursos {
+        height: 1200px;
+    }
+
+    .icones {
+        margin-left: -20px;
+        margin-bottom: 150px;
+    }
+
+
+    /* PROJETOS */
+
+    article {
+        position: relative;
+        right: 15px;
+        margin-bottom: 30px;
+    }
+}
